@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Página Sobre Mim</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Gustavo Oliveira Cruz</h1>
+        <nav>
+            <ul>
+                <li><a href="#my_profile">Meu Perfil</a></li>
+                <li><a href="#hobbys">Hobbies</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="my_profile" class="my_profile">
+            <div class="profile-container">
+                <img src="img/perfil_img.jpg" alt="Foto de Perfil" class="profile-img">
+                <div class="profile-text">
+                    <h2>Olá, Sou o Gustavo :) </h2>
+                    <p>
+                        Sou alguém em constante descoberta, curioso por natureza e guiado pela vontade de entender o mundo e as pessoas. Adoro transformar ideias em projetos, textos ou conversas significativas. Valorizo autenticidade, aprendizado contínuo e simplicidade com profundidade. Também tenho interesse em tecnologia, música e experiências que expandem horizontes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbys" class="hobbys">
+            <h2>Meus Hobbies</h2>
+            <div class="hobby-cards-container">
+                <div class="hobby-card">
+                    <div class="carousel">
+                        <img src="img/img1.jpg" alt="Foto 1">
+                        <img src="img/img2.jpg" alt="Foto 2">
+                        <img src="img/img3.jpg" alt="Foto 3">
+                    </div>
+                    <div class="second-content"><span>Fotografia</span></div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="carousel">
+                        <img src="img/dogs1.jpg" alt="Dog 1">
+                        <img src="img/dogs2.jpg" alt="Dog 2">
+                        <img src="img/dogs3.jpg" alt="Dog 3">
+                    </div>
+                    <div class="second-content"><span>Meus Doguinhos!</span></div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="carousel">
+                        <img src="img/role1.jpg" alt="role 1">
+                        <img src="img/role2.jpg" alt="role 2">
+                        <img src="img/role3.jpg" alt="role 3">
+                    </div>
+                    <div class="second-content"><span>Role Alone</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo pelas redes sociais ou envie uma mensagem abaixo:</p>
+
+            <div class="social-links">
+                <a href="https://github.com/0Iiver79" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/0liverg/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Sua mensagem..." rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Gustavo Oliveira Cruz. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
